@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">4_Custom_Intent_App</string>
+    <string name="ImmaCustomIntent">Look in the manifest for the 2 intents that invoke this app\n\ncom.example.custom_intent.YOUR_ACTION\nandroid.intent.action.SEND\n\n  </string>
+    <string name="uninstall_to_stop_responding_to_these_intents">Uninstall this application to stop responding to these intents and appearing in the EMAIL chooser</string>
+    <string name="if_you_got_here_by_requesting_android_to_provide_an_email_handler_i_cannot_handle_email_and_btw_i_will_always_pop_up_in_the_chooser_until_you_uninstall_this_application">You can get here 2 ways, by explicitly asking for the action com.example.custom_intent.YOUR_ACTION.  Or by requesting Android to provide an email handler.  I cannnot handle email even though my manifest says otherwise. </string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.keith.a4_custom_intent_app.MainActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ImmaCustomIntent" />
+
+    <TextView
+        android:text="@string/uninstall_to_stop_responding_to_these_intents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_alignParentBottom="true" />
+
+    <TextView
+        android:text="@string/if_you_got_here_by_requesting_android_to_provide_an_email_handler_i_cannot_handle_email_and_btw_i_will_always_pop_up_in_the_chooser_until_you_uninstall_this_application"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/textView1"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
